@@ -1,6 +1,5 @@
 import Ember from 'ember';
 
-export default Ember.Route.extend({
 let rentals = [{
   id: 1,
   title: 'Grand Old Mansion',
@@ -31,5 +30,4 @@ export default Ember.Route.extend({
   model() {
     return rentals;
   }
-});
 });
